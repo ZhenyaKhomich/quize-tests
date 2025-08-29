@@ -1,0 +1,114 @@
+.answers-pre-title {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 20px;
+}
+
+.answers-pre-title-result {
+    display: flex;
+    gap: 15px;
+    color: #dcdcf3;
+    align-items: center;
+    justify-content: center;
+}
+
+.answers-pre-title-name {
+    color: #6933dc;
+}
+
+.answers-title {
+    margin-top: 60px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 54px;
+    color: #6933dc;
+}
+
+.answers-title span {
+    color: #333;
+}
+
+.answers-author {
+    font-size: 20px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.answers-author span {
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    color: #6933dc;
+}
+
+.answers-number {
+    margin-top: 60px;
+    font-family: "Museo Sans Cyrl Bold", sans-serif;
+    font-size: 36px;
+    color: #333;
+}
+
+.answers-number span {
+    color: #6933dc;
+}
+
+.answers-variants {
+    margin-top: 40px;
+}
+.answers-variant {
+    display: flex;
+    gap: 13px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333;
+}
+
+.answers-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #6933dc;
+    box-sizing: border-box;
+}
+
+.answers-variant.right {
+    color: #5fdc33;
+}
+
+.answers-variant.right  .answers-circle {
+    border: 7px solid #5fdc33;
+}
+
+.answers-variant.wrong {
+    color: #dc3333;
+}
+
+.answers-variant.wrong  .answers-circle {
+    border: 7px solid #dc3333;
+}
+
+
+
+
+
+
+.back-my-results {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 165px;
+}
+
+.back-my-results a {
+    text-decoration: none;
+    display: flex;
+    gap: 13px;
+    font-size: 17px;
+    text-align: right;
+    color: #6933dc;
+    line-height: 20px;
+    align-items: center;
+}
+
+.back-my-results a:hover {
+    text-decoration: underline;
+}
